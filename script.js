@@ -45,9 +45,16 @@ for (var j = 0; j < 3; j++ ){
 var numero = 6;
 var decimal = 5.9;
 var texto = "Olá pessoal!"
-var lista = ["laranja, manga, maçaã, banana maracuja..."]
+var lista = ["laranja", "manga", "maçã", "banana", "maracuja..."];
 
-alert(lista);
+//Pode escolher um elemento da lista atraves dos indices.
+alert(lista[3]);
+
+//Pra pegar todos os elementos da lista um por um
+
+for (i in lista ) {
+	alert(lista[i]);
+}
 
 
 
