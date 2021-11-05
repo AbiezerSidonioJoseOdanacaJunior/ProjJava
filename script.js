@@ -11,8 +11,7 @@ var sub = a-b;
 var mult = a*b;
 var div = a/b;
 
-alert (mensagem);
-alert (soma);
-alert (sub);
-alert (mult);
-alert (div);
+//O modulo pega o resto da divisão nesse caso  vai imprimir o impar.
+if (b%2 == 1){
+	alert("Número ípmar")
+}
