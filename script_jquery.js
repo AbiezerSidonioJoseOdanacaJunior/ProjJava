@@ -1,5 +1,9 @@
 $(function(){
-	$('button').click(function(){
-		$('h1').hide();
+	$('#first').click(function(){
+		$('p').css('color', 'blue');
+	});
+	$('#second').click(function(){
+		$('p').css('color', 'red')
 	});
 });
+
