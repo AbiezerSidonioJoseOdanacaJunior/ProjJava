@@ -28,7 +28,7 @@ else {
 
 //While (enquanto)
 
-var i = 0;
+/* var i = 0;
 while (i < 3){
 	alert(i);
 
@@ -39,7 +39,15 @@ while (i < 3){
 
 for (var j = 0; j < 3; j++ ){
 	alert(j);
-}
+} */
+
+//Types of date (Tipos de dados)
+var numero = 6;
+var decimal = 5.9;
+var texto = "Olá pessoal!"
+var lista = ["laranja, manga, maçaã, banana maracuja..."]
+
+alert(lista);
 
 
 
