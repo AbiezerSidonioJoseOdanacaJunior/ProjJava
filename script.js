@@ -41,6 +41,8 @@ for (var j = 0; j < 3; j++ ){
 	alert(j);
 } */
 
+
+/*
 //Types of date (Tipos de dados)
 var numero = 6;
 var decimal = 5.9;
@@ -54,9 +56,11 @@ alert(lista[3]);
 
 for (i in lista ) {
 	alert(lista[i]);
-}
+}*/
 
 
+//Usando console
+ console.log("Olá Mundo!");
 
 
 
