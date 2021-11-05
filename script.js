@@ -3,7 +3,7 @@
 /* Fazer comentário 
  em várias linha de código*/
 
-var mensagem = "Olá mundo!";
+/*var mensagem = "Olá mundo!";
 var a = 2;
 var b = 3;
 var c = ("Olá mundo!");
@@ -23,4 +23,31 @@ else if (c%2 == 0) {
 
 else {
 	alert ("Valor inválido");
+}*/
+
+
+//While (enquanto)
+
+var i = 0;
+while (i < 3){
+	alert(i);
+
+	i = i + 1;
 }
+
+// for (para)
+
+for (var j = 0; j < 3; j++ ){
+	alert(j);
+}
+
+
+
+
+
+
+
+
+
+
+
