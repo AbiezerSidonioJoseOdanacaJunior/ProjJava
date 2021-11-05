@@ -3,4 +3,5 @@
 /* Fazer comentário 
  em várias linha de código*/
 
-alert ("Olá mundo!")
+var mensagem = "Olá mundo!";
+alert (mensagem);
