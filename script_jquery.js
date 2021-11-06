@@ -12,10 +12,11 @@ $(function(){
 		$('p').fideIn('slow');
 	});
 	$('#save').click(function(){
-		$('p').css('background-color', 'blue')
+		$('p').css('background-color','blue')
 		$('#message')
+		.css('background-color', 'blue')
 		.text("Cor alterado com sucesso!")
-		.css('border', '1px solid red').
+		.css({border:'1px solid red', backgroundColor: '#d0d0d0'}).
 		delay(3000).fadeOut('fast');
 		
 	});
