@@ -12,11 +12,11 @@ $(function(){
 		$('p').fideIn('slow');
 	});
 	$('#save').click(function(){
-		$('p').css('background-color', 'blue');
-		$('#message').text("Cor alterado com sucesso!");
-		$('#message').css('border', '1px solid red');
-		$('#message').delay(3000);
-		$('#message').fadeOut('fast');
+		$('p').css('background-color', 'blue')
+		$('#message')
+		.text("Cor alterado com sucesso!")
+		.css('border', '1px solid red').
+		delay(3000).fadeOut('fast');
 		
 	});
 });
